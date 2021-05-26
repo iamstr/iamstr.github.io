@@ -1,0 +1,42 @@
+nav {
+    box-shadow: 0px 5px 15px rgba(1, 1, 1, 0.15);
+    position: absolute;
+    background-color: $main-color;
+    left: 0px;
+    top: 105px;
+    width: -webkit-fill-available;
+    height: 30rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    visibility: hidden;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+li {
+    list-style: none;
+    padding-top: 1rem;
+
+    a {
+        text-decoration: none;
+        color: $white;
+        padding-top: 1rem;
+    }
+
+    a:hover, &:hover {
+        color: $secondary-color;
+    }
+}
+
+.hamburger {
+    margin: auto 1.5rem;
+    margin-top: 2rem;
+}

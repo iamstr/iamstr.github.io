@@ -1,0 +1,30 @@
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    object-fit: fill;
+}
+
+.info-para {
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.info {
+    align-items: center;
+}
+
+.info, .cta, .profile {
+    margin: 1rem auto;
+}
+
+.underline {
+    background: linear-gradient(to top, orangered 30%, transparent 70%);
+}

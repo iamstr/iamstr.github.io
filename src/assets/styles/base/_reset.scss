@@ -1,0 +1,35 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: $orange;
+}
+
+main, nav, footer, aside {
+    margin: auto 2.5rem;
+}
+
+html, body {
+    background: $main-color;
+    color: $white;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#root {
+    position: relative;
+}
+
+body, html {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.734) 100%, transparent 0%), url("../../img/—Pngtree—board lines_1038031.png");
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+}
