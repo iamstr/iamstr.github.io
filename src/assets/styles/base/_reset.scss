@@ -12,6 +12,10 @@ main, nav, footer, aside {
     margin: auto 2.5rem;
 }
 
+.main {
+    margin: auto 1.2rem;
+}
+
 html, body {
     background: $main-color;
     color: $white;
@@ -32,4 +36,28 @@ body, html {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.734) 100%, transparent 0%), url("../../img/—Pngtree—board lines_1038031.png");
     background-repeat: repeat;
     background-blend-mode: multiply;
+
+    // background-position: 0 0;
+    animation: bgMoving 4s linear infinite forwards;
+
+    // background-size: cover;
+    // background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+@keyframes bgMoving {
+    from {
+        background-position: 0rem -3rem;
+    }
+
+    to {
+        background-position: 5rem 0rem;
+    }
 }
