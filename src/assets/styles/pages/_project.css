@@ -1,4 +1,34 @@
+.project-menu {
+  margin: auto .2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: rgba 66, 66, 66, 0.13;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
 .card-img {
   width: 100%;
-  height: 8rem;
+  height: 12rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-para {
+  font-size: .9rem;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.8;
+}
+
+.card-info, .card-btns {
+  padding: .5rem 1rem;
+}
+
+.card-info button, .card-btns button {
+  padding: .7rem 2rem;
 }

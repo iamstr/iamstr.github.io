@@ -5,7 +5,7 @@ export default function Navbar({ open }) {
   // The width below which the mobile view should be rendered
   const breakpoint = 620;
   return (
-    <nav>
+    <nav style={open ? { visibility: "visible" } : { visibility: "hidden" }}>
       <ul>
         <li>
           <Link to="/">About Me</Link>

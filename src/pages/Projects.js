@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import IMG1 from "../assets/img/giphy.png";
+import Menu from "../assets/img/hamburger menu.svg";
 import Navbar from "../components/Navbar";
 export default function Projects() {
+  const [open, setOpen] = useState(false);
   return (
     <>
-      <Navbar />
+      <img
+        src={Menu}
+        alt=""
+        class="hamburger project-menu"
+        onClick={() => setOpen(!open)}
+      />
+      <Navbar open={open} />
 
       <main className="main">
         <h1>Projects</h1>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Menu from "../assets/img/hamburger-menu.svg";
+import Menu from "../assets/img/hamburger menu.svg";
 import BTS from "../assets/img/Icon awesome-bootstrap.svg";
 import Gulp from "../assets/img/Icon awesome-gulp.svg";
 import JS from "../assets/img/Icon awesome-js-square.svg";
@@ -16,8 +16,8 @@ export default function Skills() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <img src={Menu} alt="" class="hamburger" onClick={() => setOpen(true)} />
-      <Navbar />
+      <img src={Menu} alt="" class="hamburger" onClick={() => setOpen(!open)} />
+      <Navbar open={open} />
 
       <main>
         <article></article>

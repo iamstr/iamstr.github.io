@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Menu from "../assets/img/hamburger-menu.svg";
+import Menu from "../assets/img/hamburger menu.svg";
 import Profile from "../assets/img/pp.jpg";
 import Navbar from "../components/Navbar";
 
