@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9999650.chunk.css",
-    "main.js": "/static/js/main.b5dbdb8a.chunk.js",
-    "main.js.map": "/static/js/main.b5dbdb8a.chunk.js.map",
+    "main.css": "/static/css/main.96d97f06.chunk.css",
+    "main.js": "/static/js/main.a6465b76.chunk.js",
+    "main.js.map": "/static/js/main.a6465b76.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/js/2.eb7cbdc9.chunk.js": "/static/js/2.eb7cbdc9.chunk.js",
-    "static/js/2.eb7cbdc9.chunk.js.map": "/static/js/2.eb7cbdc9.chunk.js.map",
+    "static/js/2.447678ed.chunk.js": "/static/js/2.447678ed.chunk.js",
+    "static/js/2.447678ed.chunk.js.map": "/static/js/2.447678ed.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d9999650.chunk.css.map": "/static/css/main.d9999650.chunk.css.map",
-    "static/js/2.eb7cbdc9.chunk.js.LICENSE.txt": "/static/js/2.eb7cbdc9.chunk.js.LICENSE.txt",
+    "static/css/main.96d97f06.chunk.css.map": "/static/css/main.96d97f06.chunk.css.map",
+    "static/js/2.447678ed.chunk.js.LICENSE.txt": "/static/js/2.447678ed.chunk.js.LICENSE.txt",
+    "static/media/Ellipse 3.a3f40755.svg": "/static/media/Ellipse 3.a3f40755.svg",
     "static/media/Icon awesome-bootstrap.b665accd.svg": "/static/media/Icon awesome-bootstrap.b665accd.svg",
     "static/media/Icon awesome-gulp.3c966353.svg": "/static/media/Icon awesome-gulp.3c966353.svg",
     "static/media/Icon awesome-js-square.2b6ef7a9.svg": "/static/media/Icon awesome-js-square.2b6ef7a9.svg",
@@ -21,14 +22,14 @@
     "static/media/Icon simple-webpack.948e282f.svg": "/static/media/Icon simple-webpack.948e282f.svg",
     "static/media/Path 4.79fac4ee.svg": "/static/media/Path 4.79fac4ee.svg",
     "static/media/giphy.ed7a814c.png": "/static/media/giphy.ed7a814c.png",
-    "static/media/hamburger-menu.081883af.svg": "/static/media/hamburger-menu.081883af.svg",
+    "static/media/hamburger menu.3f214a2d.svg": "/static/media/hamburger menu.3f214a2d.svg",
     "static/media/pp.37b1051f.jpg": "/static/media/pp.37b1051f.jpg",
     "static/media/index.scss": "/static/media/—Pngtree—board lines_1038031.71aa84a5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
-    "static/js/2.eb7cbdc9.chunk.js",
-    "static/css/main.d9999650.chunk.css",
-    "static/js/main.b5dbdb8a.chunk.js"
+    "static/js/2.447678ed.chunk.js",
+    "static/css/main.96d97f06.chunk.css",
+    "static/js/main.a6465b76.chunk.js"
   ]
 }
