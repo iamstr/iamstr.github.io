@@ -1,25 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Navbar({ open }) {
-  const width = window.innerWidth;
   // The width below which the mobile view should be rendered
+  // ${open ? "show" : "d-none"}`
   const breakpoint = 620;
+  const [click, setClick] = useState(open);
+  const [width, setWidth] = useState(0);
+  const closeMobileMenu = () => setClick(!click);
+
   return (
-    <nav style={open ? { visibility: "visible" } : { visibility: "hidden" }}>
+    <nav
+      class={`nav${open ? " mobile bounceInRight" : ""} ${
+        width > breakpoint ? " show" : ""
+      }`}
+    >
       <ul>
-        <li>
+        <li onClick={() => closeMobileMenu}>
           <Link to="/">About Me</Link>
         </li>
-        <li>
+        <li onClick={() => closeMobileMenu}>
           <Link to="/skills">Skills</Link>
         </li>
-        <li>
+        <li onClick={() => closeMobileMenu}>
           <Link to="/projects">Projects</Link>
         </li>
-        <li>
+        <li onClick={() => closeMobileMenu}>
           <Link to="/experience">Experience</Link>
         </li>
-        <li>
+        <li onClick={() => closeMobileMenu}>
           <Link to="/contact">Contact Me</Link>
         </li>
       </ul>

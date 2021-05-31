@@ -6,7 +6,9 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
-
+  const width = window.innerWidth;
+  // The width below which the mobile view should be rendered
+  const breakpoint = 620;
   return (
     <>
       <img src={Menu} alt="" class="hamburger" onClick={() => setOpen(true)} />

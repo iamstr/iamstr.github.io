@@ -13,7 +13,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
-    visibility: hidden;
+    display: none;
 
     ul {
         display: flex;
@@ -41,4 +41,20 @@ li {
 .hamburger {
     margin: auto 1.5rem;
     margin-top: 2rem;
+}
+
+.mobile {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.mobile.bounceInRight {
+    animation-name: bounceInRight;
 }

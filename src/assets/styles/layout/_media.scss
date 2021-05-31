@@ -1,0 +1,90 @@
+@media only screen and (min-width: 728px) {
+    .nav {
+        box-shadow: 0 5px 15px rgba(1, 1, 1, 0.15);
+        position: fixed;
+        background-color: #1111116b;
+        left: -42px;
+        top: 0rem;
+        width: -webkit-fill-available;
+        width: 320px;
+        height: 100vh;
+        margin-right: 1rem;
+        z-index: 2;
+        border-radius: 0;
+        display: flex;
+        backdrop-filter: blur(70px);
+    }
+
+    main {
+        padding-left: 20rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 900px) and (orientation: landscape) {
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .card {
+            width: 48%;
+        }
+    }
+
+    .card-btns {
+        flex-direction: column;
+
+        button[class*="btn"] {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 48%;
+        margin-right: .5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+
+    .cards {
+        .card {
+            width: 48%;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    /* CSS */
+
+    .cards {
+        .card {
+            width: 48%;
+            margin-right: .5rem;
+        }
+    }
+}
+
+@media (min-width: 1281px) {
+    /* CSS */
+
+    .cards {
+        .card {
+            width: 31%;
+            margin-right: 0rem;
+
+            &:not(&:nth-child(3n+1)) {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
