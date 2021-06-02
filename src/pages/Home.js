@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+import {
+  FaEnvelope,
+  FaGithubSquare,
+  FaLinkedin,
+  FaTwitterSquare
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Menu from "../assets/img/hamburger menu.svg";
 import Profile from "../assets/img/pp.jpg";
 import Navbar from "../components/Navbar";
-
 export default function Home() {
   const [open, setOpen] = useState(false);
   const width = window.innerWidth;
@@ -27,18 +32,33 @@ export default function Home() {
           </p>
         </article>
 
-        <article>
-          <Link to="about">
-            <i class="fa fa-3x fa-linkedin-square"></i>
+        <article className="flex d-row justify-content-center home-icons">
+          <Link
+            to={{
+              pathname:
+                "https://www.linkedin.com/in/abdisatar-mohamed-8ab02714a/"
+            }}
+            target="_blank"
+          >
+            {/* <FontAwesomeIcon icon={["fas,fa-linkedin-square"]} /> */}
+            <FaLinkedin />
           </Link>
-          <Link to="about">
-            <i class="fa fa-3x fa-envelope-o"></i>
+          <Link
+            to={{
+              pathname: "mailto:asatar1994@gmail.com"
+            }}
+            target="_blank"
+          >
+            <FaEnvelope />
           </Link>
-          <Link to="about">
-            <i class="fa fa-3x fa-twitter-square"></i>
+          <Link
+            to={{ pathname: "https://twitter.com/iamsatarmovic" }}
+            target="_blank"
+          >
+            <FaTwitterSquare />
           </Link>
-          <Link to="about">
-            <i class="fa fa-3x fa-github-square"></i>
+          <Link to={{ pathname: "https://github.com/iamstr" }} target="_blank">
+            <FaGithubSquare />
           </Link>
         </article>
         <article className="cta  d-row justify-content-center flex">

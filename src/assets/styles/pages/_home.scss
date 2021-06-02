@@ -8,13 +8,11 @@
 
 .info-para {
     text-align: center;
-    
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 3rem;
-   
 }
 
 .info {
@@ -27,4 +25,15 @@ h1 {
 
 .underline {
     background: linear-gradient(to top, orangered 30%, transparent 70%);
+}
+
+.home-icons {
+    svg {
+        fill: #fffffffc;
+        font-size: 3rem;
+
+        &:not(&:first-child) {
+            padding-left: 1rem;
+        }
+    }
 }

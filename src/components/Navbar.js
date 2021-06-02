@@ -27,9 +27,6 @@ export default function Navbar({ open }) {
         <li onClick={() => closeMobileMenu}>
           <Link to="/experience">Experience</Link>
         </li>
-        <li onClick={() => closeMobileMenu}>
-          <Link to="/contact">Contact Me</Link>
-        </li>
       </ul>
     </nav>
   );

@@ -26,3 +26,12 @@ h1 {
 .underline {
   background: linear-gradient(to top, orangered 30%, transparent 70%);
 }
+
+.home-icons svg {
+  fill: #fffffffc;
+  font-size: 3rem;
+}
+
+.home-icons svg:not(.home-icons svg:first-child) {
+  padding-left: 1rem;
+}
