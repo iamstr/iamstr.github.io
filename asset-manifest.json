@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8eccc7a7.chunk.css",
-    "main.js": "/static/js/main.8de56d79.chunk.js",
-    "main.js.map": "/static/js/main.8de56d79.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/js/2.8fa450dd.chunk.js": "/static/js/2.8fa450dd.chunk.js",
-    "static/js/2.8fa450dd.chunk.js.map": "/static/js/2.8fa450dd.chunk.js.map",
+    "main.css": "/static/css/main.fc30faf7.chunk.css",
+    "main.js": "/static/js/main.e7d92368.chunk.js",
+    "main.js.map": "/static/js/main.e7d92368.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/js/2.ac5ea281.chunk.js": "/static/js/2.ac5ea281.chunk.js",
+    "static/js/2.ac5ea281.chunk.js.map": "/static/js/2.ac5ea281.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8eccc7a7.chunk.css.map": "/static/css/main.8eccc7a7.chunk.css.map",
-    "static/js/2.8fa450dd.chunk.js.LICENSE.txt": "/static/js/2.8fa450dd.chunk.js.LICENSE.txt",
+    "static/css/main.fc30faf7.chunk.css.map": "/static/css/main.fc30faf7.chunk.css.map",
+    "static/js/2.ac5ea281.chunk.js.LICENSE.txt": "/static/js/2.ac5ea281.chunk.js.LICENSE.txt",
     "static/media/Ellipse 3.a3f40755.svg": "/static/media/Ellipse 3.a3f40755.svg",
     "static/media/Icon awesome-bootstrap.b665accd.svg": "/static/media/Icon awesome-bootstrap.b665accd.svg",
     "static/media/Icon awesome-gulp.3c966353.svg": "/static/media/Icon awesome-gulp.3c966353.svg",
@@ -27,9 +27,9 @@
     "static/media/index.scss": "/static/media/—Pngtree—board lines_1038031.71aa84a5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b83279d6.js",
-    "static/js/2.8fa450dd.chunk.js",
-    "static/css/main.8eccc7a7.chunk.css",
-    "static/js/main.8de56d79.chunk.js"
+    "static/js/runtime-main.d0605945.js",
+    "static/js/2.ac5ea281.chunk.js",
+    "static/css/main.fc30faf7.chunk.css",
+    "static/js/main.e7d92368.chunk.js"
   ]
 }
